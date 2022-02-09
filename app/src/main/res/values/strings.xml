@@ -3,4 +3,7 @@
     <string name="product_detail_main_image">Product_detail_main_image</string>
     <string name="title_product_detail_image">Product Detail</string>
     <string name="description_product_detail_image">Product Detail Image</string>
+    <string name="label_category_icon">Category</string>
+    <string name="label_home_icon">Home</string>
+    <string name="label_cart_icon">Cart</string>
 </resources>
