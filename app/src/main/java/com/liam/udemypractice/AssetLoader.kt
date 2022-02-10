@@ -1,0 +1,22 @@
+package com.liam.udemypractice
+
+import android.content.Context
+import android.util.Log
+
+class AssetLoader {
+
+    fun getJasonString(context: Context, fileName: String): String? {
+        return kotlin.runCatching {
+            loadAsset(context, fileName)
+        }.getOrNull()
+    }
+
+    private fun loadAsset(context: Context, fileName: String): String {
+        return context.assets.open(fileName).use { inputStream ->
+            val size = inputStream.available()
+            val bytes = ByteArray(size)
+            inputStream.read(bytes)
+            String(bytes)
+        }
+    }
+}

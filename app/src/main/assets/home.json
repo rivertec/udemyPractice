@@ -1,0 +1,41 @@
+{
+  "title": {
+    "text": "What do you think?",
+    "icon_url": "https://user-images.githubusercontent.com/64354482/153309735-43be0d65-164c-48a1-b7e1-90c489e2f2df.png"
+  },
+  "top_banners": [
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/64354482/153309759-fabc0518-9a07-4af2-9e22-6b37676ff3ce.png",
+      "badge": {
+        "label": "Promotion",
+        "background_color": "#52514d"
+      },
+      "label": "Preparing\nwarm winter",
+      "product_detail": {
+        "brand_name": "twg.official",
+        "label": "100% Cashmere Turtleneck Sweater",
+        "discount_rate": 9,
+        "price": 102000,
+        "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309757-b59d8074-6452-44fe-bd14-7af54a506afc.png",
+        "product_id": "FW-twg-sweater-1"
+      }
+    },
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/64354482/153309753-bc7c726f-fa07-4797-92d5-eeaabbfb3cfd.png",
+      "badge": {
+        "label": "Promotion",
+        "background_color": "#967a6d"
+      },
+      "label": "My own\nhome office",
+      "product_detail": {
+        "brand_name": "Desk",
+        "label": "Slim Desk 800",
+        "discount_rate": 16,
+        "price": 160000,
+        "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309754-18bd9b6d-2242-41e8-b12e-4f4f42e04d64.png",
+        "product_id": "desk-1"
+      }
+    }
+  ]
+}
+
