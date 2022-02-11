@@ -5,7 +5,7 @@ import android.util.Log
 
 class AssetLoader {
 
-    fun getJasonString(context: Context, fileName: String): String? {
+    fun getJsonString(context: Context, fileName: String): String? {
         return kotlin.runCatching {
             loadAsset(context, fileName)
         }.getOrNull()

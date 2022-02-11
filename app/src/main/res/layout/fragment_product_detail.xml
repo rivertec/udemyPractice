@@ -14,10 +14,9 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar_product_detail"
             android:layout_width="match_parent"
-            app:navigationIcon="@drawable/ic_gnb_back"
             android:layout_height="wrap_content"
             app:layout_scrollFlags="scroll|enterAlways"
-            />
+            app:navigationIcon="@drawable/ic_gnb_back" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -43,10 +42,10 @@
                 android:src="@drawable/img_pdp_top_01"
                 app:layout_constraintDimensionRatio="w, 1:1"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
 
-                />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/tv_product_brand_name"
