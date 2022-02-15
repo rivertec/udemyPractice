@@ -1,4 +1,4 @@
-package com.liam.udemypractice
+package com.liam.udemypractice.ui.home
 
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
@@ -7,12 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.appcompat.view.menu.MenuView
-import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.google.gson.Gson
+import com.liam.udemypractice.Banner
+import com.liam.udemypractice.GlideApp
+import com.liam.udemypractice.R
 import java.text.DecimalFormat
 import kotlin.math.roundToInt
 

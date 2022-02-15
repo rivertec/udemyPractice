@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.liam.udemypractice.HomeFragment"
+        android:name="com.liam.udemypractice.ui.home.HomeFragment"
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_home_to_product_detail"
@@ -14,14 +14,14 @@
     </fragment>
     <fragment
         android:id="@+id/nav_category"
-        android:name="com.liam.udemypractice.CategoryFragment"
+        android:name="com.liam.udemypractice.ui.CategoryFragment"
         android:label="CategoryFragment" />
     <fragment
         android:id="@+id/nav_cart"
-        android:name="com.liam.udemypractice.CartFragment"
+        android:name="com.liam.udemypractice.ui.CartFragment"
         android:label="CartFragment" />
     <fragment
         android:id="@+id/nav_product_detail"
-        android:name="com.liam.udemypractice.ProductDetailFragment"
+        android:name="com.liam.udemypractice.ui.ProductDetailFragment"
         android:label="ProductDetailFragment" />
 </navigation>

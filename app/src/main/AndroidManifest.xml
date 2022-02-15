@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UdemyPractice">
         <activity
-            android:name=".SplashActivity"
+            android:name=".ui.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.UdemyPractice.Splash">
             <intent-filter>
@@ -24,7 +24,7 @@
 
 
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="false" />
     </application>
 
