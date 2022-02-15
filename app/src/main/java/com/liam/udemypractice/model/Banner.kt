@@ -1,4 +1,4 @@
-package com.liam.udemypractice
+package com.liam.udemypractice.model
 
 import com.google.gson.annotations.SerializedName
 

@@ -1,7 +1,6 @@
 package com.liam.udemypractice.model
 
 import com.google.gson.annotations.SerializedName
-import com.liam.udemypractice.Banner
 
 data class HomeData(
     val title: Title,

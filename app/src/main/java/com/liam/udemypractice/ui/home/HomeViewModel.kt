@@ -3,7 +3,7 @@ package com.liam.udemypractice.ui.home
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.liam.udemypractice.Banner
+import com.liam.udemypractice.model.Banner
 import com.liam.udemypractice.model.Title
 import com.liam.udemypractice.repository.HomeRepository
 
