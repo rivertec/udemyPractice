@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.liam.udemypractice.Banner
 import com.liam.udemypractice.databinding.ItemHomeBannerBinding
+import com.liam.udemypractice.model.Banner
 
 class HomeBannerAdapter :
     ListAdapter<Banner, HomeBannerAdapter.HomeBannerViewHolder>(
