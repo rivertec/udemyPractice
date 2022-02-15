@@ -2,6 +2,10 @@
     <string name="app_name">udemyPractice</string>
     <string name="product_detail_main_image">Product_detail_main_image</string>
     <string name="title_product_detail_image">Product Detail</string>
+    
+    <string name="unit_discount_rate">%d%%</string>
+    <string name="unit_discount_currency">%s$</string>
+
     <string name="description_product_detail_image">Product Detail Image</string>
     <string name="label_category_icon">Category</string>
     <string name="label_home_icon">Home</string>
