@@ -33,7 +33,6 @@
             android:layout_marginBottom="7dp"
             android:paddingHorizontal="7dp"
             android:paddingVertical="1dp"
-            android:background="@{banner.badge.backgroundColor}"
             android:text="@{banner.badge.label}"
             app:layout_constraintBottom_toTopOf="@id/tv_banner_title"
             app:layout_constraintStart_toStartOf="@id/iv_banner_image"
