@@ -14,7 +14,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_category"
-        android:name="com.liam.udemypractice.ui.CategoryFragment"
+        android:name="com.liam.udemypractice.ui.category.CategoryFragment"
         android:label="CategoryFragment" />
     <fragment
         android:id="@+id/nav_cart"
