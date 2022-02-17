@@ -3,7 +3,6 @@ package com.liam.udemypractice.model
 import com.google.gson.annotations.SerializedName
 
 data class Category(
-
     @SerializedName("category_id")
     val categoryId: String,
     val label: String,

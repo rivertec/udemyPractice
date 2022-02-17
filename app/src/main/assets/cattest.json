@@ -1,0 +1,65 @@
+{
+  "categories": [
+    {
+      "category_id": "fashion-female",
+      "label": "Women",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309759-fabc0518-9a07-4af2-9e22-6b37676ff3ce.png",
+      "updated": "false"
+    },{
+      "category_id": "fashion-male",
+      "label": "Men",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309759-fabc0518-9a07-4af2-9e22-6b37676ff3ce.png",
+      "updated": "false"
+    },{
+      "category_id": "fashion-kids",
+      "label": "Kids",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309759-fabc0518-9a07-4af2-9e22-6b37676ff3ce.png",
+      "updated": "false"
+    },{
+      "category_id": "electronics",
+      "label": "Electronics",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309759-fabc0518-9a07-4af2-9e22-6b37676ff3ce.png",
+      "updated": "false"
+    },{
+      "category_id": "furniture",
+      "label": "Furniture",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309759-fabc0518-9a07-4af2-9e22-6b37676ff3ce.png",
+      "updated": "true"
+    },{
+      "category_id": "sports",
+      "label": "Sports/Leisure",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309759-fabc0518-9a07-4af2-9e22-6b37676ff3ce.png",
+      "updated": "false"
+    },{
+      "category_id": "books",
+      "label": "Books",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309759-fabc0518-9a07-4af2-9e22-6b37676ff3ce.png",
+      "updated": "false"
+    },{
+      "category_id": "pets",
+      "label": "Pets",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309759-fabc0518-9a07-4af2-9e22-6b37676ff3ce.png",
+      "updated": "false"
+    },{
+      "category_id": "car",
+      "label": "Car",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309759-fabc0518-9a07-4af2-9e22-6b37676ff3ce.png",
+      "updated": "false"
+    },{
+      "category_id": "fancy-goods",
+      "label": "Shoes",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309759-fabc0518-9a07-4af2-9e22-6b37676ff3ce.png",
+      "updated": "false"
+    },{
+      "category_id": "food",
+      "label": "Food",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309759-fabc0518-9a07-4af2-9e22-6b37676ff3ce.png",
+      "updated": "false"
+    },{
+      "category_id": "beauty",
+      "label": "Beauty supply",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309759-fabc0518-9a07-4af2-9e22-6b37676ff3ce.png",
+      "updated": "true"
+    }
+  ]
+}

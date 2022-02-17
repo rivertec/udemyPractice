@@ -27,7 +27,7 @@
 
                 <TextView
                     android:id="@+id/home_appbar_text"
-                    style="@style/TextHeadline.Black02.Bold"
+                    style="@style/TextHeadline5.Black02.Bold"
                     android:layout_width="wrap_content"
                     android:layout_height="72dp"
                     android:layout_marginStart="16dp"
