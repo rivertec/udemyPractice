@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.liam.udemypractice.model.Banner
 import com.liam.udemypractice.model.Title
-import com.liam.udemypractice.repository.HomeRepository
+import com.liam.udemypractice.repository.home.HomeRepository
 
 class HomeViewModel(private val homeRepository: HomeRepository) : ViewModel() {
 

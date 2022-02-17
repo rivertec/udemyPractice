@@ -1,4 +1,4 @@
-package com.liam.udemypractice.repository
+package com.liam.udemypractice.repository.category
 
 import com.liam.udemypractice.model.Category
 

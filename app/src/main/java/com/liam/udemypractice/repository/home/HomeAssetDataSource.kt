@@ -1,4 +1,4 @@
-package com.liam.udemypractice.repository
+package com.liam.udemypractice.repository.home
 
 import com.google.gson.Gson
 import com.liam.udemypractice.AssetLoader

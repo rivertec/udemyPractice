@@ -1,4 +1,4 @@
-package com.liam.udemypractice.repository
+package com.liam.udemypractice.repository.home
 
 import com.liam.udemypractice.model.HomeData
 

@@ -5,10 +5,10 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.liam.udemypractice.AssetLoader
 import com.liam.udemypractice.network.ApiClient
-import com.liam.udemypractice.repository.CategoryRemoteDataSource
-import com.liam.udemypractice.repository.CategoryRepository
-import com.liam.udemypractice.repository.HomeAssetDataSource
-import com.liam.udemypractice.repository.HomeRepository
+import com.liam.udemypractice.repository.category.CategoryRemoteDataSource
+import com.liam.udemypractice.repository.category.CategoryRepository
+import com.liam.udemypractice.repository.home.HomeAssetDataSource
+import com.liam.udemypractice.repository.home.HomeRepository
 import com.liam.udemypractice.ui.category.CategoryViewModel
 import com.liam.udemypractice.ui.home.HomeViewModel
 

@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.liam.udemypractice.model.Category
-import com.liam.udemypractice.repository.CategoryRepository
+import com.liam.udemypractice.repository.category.CategoryRepository
 import kotlinx.coroutines.launch
 
 class CategoryViewModel(
