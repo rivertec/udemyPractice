@@ -2,17 +2,17 @@
 {
   "categories": [
     {
-      "category_id": "fashion-female",
+      "category_id": "fashion_female",
       "label": "Women",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206234-b643a911-bfc2-4c67-8093-0b54bf331420.jpg",
       "updated": "false"
     },{
-      "category_id": "fashion-male",
+      "category_id": "fashion_male",
       "label": "Men",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206226-525f6821-e032-4811-b016-61fb8f89fc37.jpg",
       "updated": "false"
     },{
-      "category_id": "fashion-kids",
+      "category_id": "fashion_kids",
       "label": "Kids",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206235-e804ae77-1fb8-4680-a32c-f221b89bde78.jpg",
       "updated": "false"
@@ -34,7 +34,7 @@
     },{
       "category_id": "books",
       "label": "Books",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206239-832f80ed-a74b-4cc9-8ab5-076f15e82bc4.jpg",
+      "thumbnail_image_url": "https://i.ibb.co/Dp715KS/img-category-book.jpg",
       "updated": "false"
     },{
       "category_id": "pets",
@@ -47,7 +47,7 @@
       "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206240-0902eb24-4c8d-4026-93d9-006bd0a7e0a1.jpg",
       "updated": "false"
     },{
-      "category_id": "fancy-goods",
+      "category_id": "fancy_goods",
       "label": "Shoes",
       "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206230-383b9d11-93eb-4fae-a529-3837649d629c.jpg",
       "updated": "false"

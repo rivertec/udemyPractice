@@ -1,0 +1,146 @@
+
+{
+  "categories": [
+    {
+      "category_id": "fashion_female",
+      "label": "Women",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206234-b643a911-bfc2-4c67-8093-0b54bf331420.jpg",
+      "updated": "false"
+    },{
+      "category_id": "fashion_male",
+      "label": "Men",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206226-525f6821-e032-4811-b016-61fb8f89fc37.jpg",
+      "updated": "false"
+    },{
+      "category_id": "fashion_kids",
+      "label": "Kids",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206235-e804ae77-1fb8-4680-a32c-f221b89bde78.jpg",
+      "updated": "false"
+    },{
+      "category_id": "electronics",
+      "label": "Electronics",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206220-fc2acebf-488b-4461-b4ca-676083227c1e.jpg",
+      "updated": "false"
+    },{
+      "category_id": "furniture",
+      "label": "Furniture",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206224-8bf83a6c-1e62-484b-b23a-b36390388a3c.jpg",
+      "updated": "true"
+    },{
+      "category_id": "sports",
+      "label": "Sports/Leisure",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206231-32204ccc-78f8-496a-b8a6-95d4613e92e6.jpg",
+      "updated": "false"
+    },{
+      "category_id": "books",
+      "label": "Books",
+      "thumbnail_image_url": "https://i.ibb.co/Dp715KS/img-category-book.jpg",
+      "updated": "false"
+    },{
+      "category_id": "pets",
+      "label": "Pets",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206228-11fd1420-19c5-4cf7-9849-5dff84eaf4a6.jpg",
+      "updated": "false"
+    },{
+      "category_id": "car",
+      "label": "Car",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206240-0902eb24-4c8d-4026-93d9-006bd0a7e0a1.jpg",
+      "updated": "false"
+    },{
+      "category_id": "fancy_goods",
+      "label": "Shoes",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206230-383b9d11-93eb-4fae-a529-3837649d629c.jpg",
+      "updated": "false"
+    },{
+      "category_id": "food",
+      "label": "Food",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206223-9fefb23b-5e71-41fe-9599-1fcc23b7cdce.jpg",
+      "updated": "false"
+    },{
+      "category_id": "beauty",
+      "label": "Beauty supply",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206236-8c2dd4f3-f942-494e-aa7c-8d43bd515c97.jpg",
+      "updated": "true"
+    }
+  ],
+  "fashion_female" : {
+    "top_selling": {
+      "title" : {
+        "text" : "New Arrival"
+      },
+      "categories": [
+        {
+          "category_id": "fashion_jacket",
+          "label": "Jacket",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588528-3a46c0eb-45f7-4461-863f-59ee77b51ad2.png",
+          "updated": true
+        },
+        {
+          "category_id": "fashion_sweater",
+          "label": "Sweater",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588532-97c42520-06d5-49d3-b696-eb4c9b3a1dca.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_cap",
+          "label": "Cap",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588527-22270c73-5792-4d4f-ae31-f18da2334e41.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_belt",
+          "label": "Belt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588525-f2e79b1c-4b3e-4409-93bb-ef0f3c11e2fa.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_shirts",
+          "label": "Shirts",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588530-99282ada-1481-4afd-ab55-cb9e669997ed.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_skirt",
+          "label": "Skirt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588531-1d9b541e-8cc2-418d-8dc4-2e0e191360c3.png",
+          "updated": false
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "Promotions"
+      },
+      "items": [
+        {
+          "label": "Faux Leather Short Tailored Jacket Black",
+          "discount_rate": 10,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588534-daac7734-7210-4980-b70c-bd0d45d91d7c.png",
+          "product_id": "jacket_1"
+        },
+        {
+          "label": "100% Cashmere Sweater",
+          "discount_rate": 15,
+          "price": 150,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588535-9b73635b-a7f3-424d-bdb7-54c9c2b8618b.png",
+          "product_id": "sweater_1"
+        },
+        {
+          "label": "Stripe Knit T-Shirts",
+          "discount_rate": 10,
+          "price": 50,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588537-56c6b664-4590-4cbf-9954-365a8970efb4.png",
+          "product_id": "tshirt_1"
+        },
+        {
+          "label": "White Sports Jumper",
+          "discount_rate": 20,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588539-ef9cf0a5-8ed0-498f-bf74-64d575405505.png",
+          "product_id": "jacket_1"
+        }
+      ]
+    }
+  }
+}
