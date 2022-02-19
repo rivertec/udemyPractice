@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="category"
+            type="com.liam.udemypractice.model.Category" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="16dp">
+
+        <ImageView
+            android:id="@+id/iv_category_top_selling_thumbnail"
+            circleImageUrl="@{category.thumbnailImgUrl}"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/background_circle_gradient"
+            android:padding="4dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:circleImageUrl="https://user-images.githubusercontent.com/64354482/154206240-0902eb24-4c8d-4026-93d9-006bd0a7e0a1.jpg" />
+
+        <TextView
+            android:id="@+id/tv_category_top_selling_badge"
+            style="@style/TextCaption2.White.Bold"
+            isVisible="@{category.updated}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_purple_r24"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="3dp"
+            android:text="N"
+            app:layout_constraintEnd_toEndOf="@id/iv_category_top_selling_thumbnail"
+            app:layout_constraintTop_toTopOf="@id/iv_category_top_selling_thumbnail" />
+
+        <TextView
+            android:id="@+id/tv_category_top_selling_label"
+            style="@style/TextCaption2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@{category.label}"
+            app:layout_constraintEnd_toEndOf="@id/iv_category_top_selling_thumbnail"
+            app:layout_constraintStart_toStartOf="@id/iv_category_top_selling_thumbnail"
+            app:layout_constraintTop_toBottomOf="@id/iv_category_top_selling_thumbnail"
+            tools:text="Jacket" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

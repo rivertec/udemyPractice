@@ -37,5 +37,9 @@
         android:id="@+id/nav_category_detail"
         android:name="com.liam.udemypractice.ui.categorydetaill.CategoryDetailFragment"
         android:label="CategoryDetailFragment"
-        tools:layout="@layout/fragment_category_detail" />
+        tools:layout="@layout/fragment_category_detail" >
+        <action
+            android:id="@+id/action_category_detail_to_category"
+            app:destination="@id/nav_category" />
+    </fragment>
 </navigation>

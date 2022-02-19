@@ -14,3 +14,13 @@ fun loadImage(view: ImageView, imageUrl: String?) {
     }
 }
 
+@BindingAdapter("circleImageUrl")
+fun loadCircleImage(view: ImageView, imageUrl: String?) {
+    if (!imageUrl.isNullOrEmpty()) {
+        GlideApp
+            .with(view)
+            .load(imageUrl)
+            .circleCrop()
+            .into(view)
+    }
+}

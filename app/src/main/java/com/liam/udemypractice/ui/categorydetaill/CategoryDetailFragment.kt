@@ -5,13 +5,17 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.ConcatAdapter
+import com.liam.udemypractice.common.KEY_CATEGORY_ID
 import com.liam.udemypractice.common.KEY_CATEGORY_LABEL
 import com.liam.udemypractice.databinding.FragmentCategoryDetailBinding
+import com.liam.udemypractice.ui.common.ViewModelFactory
 
 class CategoryDetailFragment: Fragment() {
 
     private lateinit var binding: FragmentCategoryDetailBinding
+    private val viewModel: CategoryDetailViewModel by viewModels { ViewModelFactory(requireContext(), KEY_CATEGORY_ID) }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -33,11 +37,20 @@ class CategoryDetailFragment: Fragment() {
     private fun setToolbar() {
         val categoryLabel = requireArguments().getString(KEY_CATEGORY_LABEL)
         binding.toolbarCategoryDetail.title = categoryLabel
+
     }
 
     private fun setListAdapter() {
         val titleAdapter = CategorySectionTitleAdapter()
+        val topSellingSectionAdapter = CategoryTopSellingAdapter()
         val promotionAdapter = CategoryPromotionAdapter()
-        binding.rvCategoryDetail.adapter = ConcatAdapter(titleAdapter, promotionAdapter)
+        binding.rvCategoryDetail.adapter = ConcatAdapter(topSellingSectionAdapter, titleAdapter, promotionAdapter)
+        viewModel.topSelling.observe(viewLifecycleOwner) { topSelling ->
+            topSellingSectionAdapter.submitList(listOf(topSelling))
+        }
+        viewModel.promotions.observe(viewLifecycleOwner) { promotions ->
+            titleAdapter.submitList(listOf(promotions.title))
+            promotionAdapter.submitList(promotions.items)
+        }
     }
 }

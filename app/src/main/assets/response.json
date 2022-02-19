@@ -34,7 +34,7 @@
     },{
       "category_id": "books",
       "label": "Books",
-      "thumbnail_image_url": "https://i.ibb.co/Dp715KS/img-category-book.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154206239-832f80ed-a74b-4cc9-8ab5-076f15e82bc4.jpg",
       "updated": "false"
     },{
       "category_id": "pets",
@@ -142,5 +142,16 @@
         }
       ]
     }
-  }
+  },
+  "fashion_male" : {},
+  "fashion_kids" : {},
+  "electronics" : {},
+  "furniture" : {},
+  "sports" : {},
+  "books" : {},
+  "pets" : {},
+  "car" : {},
+  "fancy_goods" : {},
+  "food" : {},
+  "beauty" : {}
 }

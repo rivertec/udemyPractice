@@ -1,6 +1,7 @@
 package com.liam.udemypractice.network
 
 import com.liam.udemypractice.model.Category
+import com.liam.udemypractice.model.CategoryDetail
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -11,6 +12,12 @@ interface ApiClient {
 
     @GET("categories.json")
     suspend fun getCategories(): List<Category>
+
+//    @GET("{categoryId}.json")
+//    suspend fun getCategoryDetail(@Path("categoryId") categoryId: String?): CategoryDetail
+    @GET("fashion_female.json")
+    suspend fun getCategoryDetail(): CategoryDetail
+
 
     companion object {
 

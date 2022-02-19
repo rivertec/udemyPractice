@@ -23,7 +23,7 @@
                 app:layout_scrollFlags="scroll|enterAlways"
                 app:navigationIcon="@drawable/ic_gnb_back"
                 app:titleTextAppearance="@style/TextMedium.Bold"
-                tools:title="Female" />
+                tools:title="Category_Detail_Fragment" />
 
         </com.google.android.material.appbar.AppBarLayout>
 
