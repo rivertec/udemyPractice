@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.liam.udemypractice.databinding.ItemHomeBannerBinding
 import com.liam.udemypractice.model.Banner
 
-class HomeBannerAdapter :
+class HomeBannerAdapter(private val viewModel: HomeViewModel) :
     ListAdapter<Banner, HomeBannerAdapter.HomeBannerViewHolder>(
         BannerDiffCallback()
     ) {
@@ -16,6 +16,8 @@ class HomeBannerAdapter :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeBannerViewHolder {
         binding = ItemHomeBannerBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        binding.ivBannerImage.clipToOutline = true
+
         return HomeBannerViewHolder(binding)
     }
 
@@ -23,11 +25,12 @@ class HomeBannerAdapter :
         holder.bind(getItem(position))
     }
 
-    class HomeBannerViewHolder(private val binding: ItemHomeBannerBinding) :
+    inner class HomeBannerViewHolder(private val binding: ItemHomeBannerBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(banner: Banner) {
             binding.banner = banner
+            binding.viewModel = viewModel
             binding.executePendingBindings()
         }
     }

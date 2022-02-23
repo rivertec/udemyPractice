@@ -1,5 +1,6 @@
 package com.liam.udemypractice.ui.common
 
+import android.graphics.Paint
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
 import com.liam.udemypractice.R
@@ -16,4 +17,12 @@ fun applyPriceFormat(view: TextView, price: Int) {
 fun applyPriceDiscountRate(view: TextView, price: Int, discountRate: Int) {
     val discountedPrice = (price - (price * discountRate) / 100.0).roundToInt()
     applyPriceFormat(view, discountedPrice)
+}
+
+@BindingAdapter("priceAmount", "strikeThrough")
+fun applyPriceAndStrikeStyle(view: TextView, price: Int, strikeThrough: Boolean) {
+    applyPriceFormat(view, price)
+    if (strikeThrough) {
+        view.paintFlags = Paint.STRIKE_THRU_TEXT_FLAG
+    }
 }

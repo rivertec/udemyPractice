@@ -1,5 +1,49 @@
 
 {
+  "products": {
+    "FW-twg-sweater-1": {
+      "brand_name": "twg. official",
+      "label": "캐시미어 100% 터틀넥 스웨터",
+      "discount_rate": 9,
+      "price": 102000,
+      "type": "Free",
+      "representative_image_url": "https://user-images.githubusercontent.com/20774764/149948250-8968498e-e204-4b35-8d52-8d9aecd1d54a.png",
+      "descriptions": [
+        {
+          "id": "FW-twg-sweater-1-desc-1",
+          "image_url": "https://user-images.githubusercontent.com/20774764/154342920-f92e9ce0-4491-427b-9119-97138f102a82.jpg"
+        },
+        {
+          "id": "FW-twg-sweater-1-desc-2",
+          "image_url": "https://user-images.githubusercontent.com/20774764/154342942-1956ebb2-cc25-4b71-acc4-702f4a1783c6.jpg"
+        }
+      ],
+      "product_id": "FW-twg-sweater-1"
+    },
+    "desk-1": {
+      "brand_name": "Desk",
+      "label": "슬림 데스크 800",
+      "discount_rate": 16,
+      "price": 160000,
+      "type": "1800x720",
+      "representative_image_url": "https://user-images.githubusercontent.com/20774764/149948259-9806ff37-0719-4e34-b11f-be0056c7fea8.png",
+      "descriptions": [
+        {
+          "id": "desk-1-desc-1",
+          "image_url": "https://user-images.githubusercontent.com/20774764/149948259-9806ff37-0719-4e34-b11f-be0056c7fea8.png"
+        },
+        {
+          "id": "desk-1-desc-2",
+          "image_url": "https://user-images.githubusercontent.com/20774764/154342948-3744fd53-3963-4994-bccc-796313489e1a.jpg"
+        },
+        {
+          "id": "desk-1-desc-3",
+          "image_url": "https://user-images.githubusercontent.com/20774764/154342950-01d232ac-210e-4e89-8395-f7aa5a2d9a64.jpg"
+        }
+      ],
+      "product_id": "desk-1"
+    }
+  },
   "categories": [
     {
       "category_id": "fashion_female",
@@ -66,7 +110,7 @@
   "fashion_female" : {
     "top_selling": {
       "title" : {
-        "text" : "New Arrival"
+        "text" : "New Arrival FF"
       },
       "categories": [
         {
@@ -143,15 +187,961 @@
       ]
     }
   },
-  "fashion_male" : {},
-  "fashion_kids" : {},
-  "electronics" : {},
-  "furniture" : {},
-  "sports" : {},
-  "books" : {},
-  "pets" : {},
-  "car" : {},
-  "fancy_goods" : {},
-  "food" : {},
-  "beauty" : {}
+  "fashion_male" : {
+    "top_selling": {
+      "title" : {
+        "text" : "New Arrival FM"
+      },
+      "categories": [
+        {
+          "category_id": "fashion_jacket",
+          "label": "Jacket",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588528-3a46c0eb-45f7-4461-863f-59ee77b51ad2.png",
+          "updated": true
+        },
+        {
+          "category_id": "fashion_sweater",
+          "label": "Sweater",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588532-97c42520-06d5-49d3-b696-eb4c9b3a1dca.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_cap",
+          "label": "Cap",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588527-22270c73-5792-4d4f-ae31-f18da2334e41.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_belt",
+          "label": "Belt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588525-f2e79b1c-4b3e-4409-93bb-ef0f3c11e2fa.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_shirts",
+          "label": "Shirts",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588530-99282ada-1481-4afd-ab55-cb9e669997ed.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_skirt",
+          "label": "Skirt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588531-1d9b541e-8cc2-418d-8dc4-2e0e191360c3.png",
+          "updated": false
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "Promotions"
+      },
+      "items": [
+        {
+          "label": "Faux Leather Short Tailored Jacket Black",
+          "discount_rate": 10,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588534-daac7734-7210-4980-b70c-bd0d45d91d7c.png",
+          "product_id": "jacket_1"
+        },
+        {
+          "label": "100% Cashmere Sweater",
+          "discount_rate": 15,
+          "price": 150,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588535-9b73635b-a7f3-424d-bdb7-54c9c2b8618b.png",
+          "product_id": "sweater_1"
+        },
+        {
+          "label": "Stripe Knit T-Shirts",
+          "discount_rate": 10,
+          "price": 50,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588537-56c6b664-4590-4cbf-9954-365a8970efb4.png",
+          "product_id": "tshirt_1"
+        },
+        {
+          "label": "White Sports Jumper",
+          "discount_rate": 20,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588539-ef9cf0a5-8ed0-498f-bf74-64d575405505.png",
+          "product_id": "jacket_1"
+        }
+      ]
+    }
+  },
+  "fashion_kids" : {
+    "top_selling": {
+      "title" : {
+        "text" : "New Arrival FK"
+      },
+      "categories": [
+        {
+          "category_id": "fashion_jacket",
+          "label": "Jacket",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588528-3a46c0eb-45f7-4461-863f-59ee77b51ad2.png",
+          "updated": true
+        },
+        {
+          "category_id": "fashion_sweater",
+          "label": "Sweater",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588532-97c42520-06d5-49d3-b696-eb4c9b3a1dca.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_cap",
+          "label": "Cap",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588527-22270c73-5792-4d4f-ae31-f18da2334e41.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_belt",
+          "label": "Belt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588525-f2e79b1c-4b3e-4409-93bb-ef0f3c11e2fa.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_shirts",
+          "label": "Shirts",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588530-99282ada-1481-4afd-ab55-cb9e669997ed.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_skirt",
+          "label": "Skirt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588531-1d9b541e-8cc2-418d-8dc4-2e0e191360c3.png",
+          "updated": false
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "Promotions"
+      },
+      "items": [
+        {
+          "label": "Faux Leather Short Tailored Jacket Black",
+          "discount_rate": 10,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588534-daac7734-7210-4980-b70c-bd0d45d91d7c.png",
+          "product_id": "jacket_1"
+        },
+        {
+          "label": "100% Cashmere Sweater",
+          "discount_rate": 15,
+          "price": 150,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588535-9b73635b-a7f3-424d-bdb7-54c9c2b8618b.png",
+          "product_id": "sweater_1"
+        },
+        {
+          "label": "Stripe Knit T-Shirts",
+          "discount_rate": 10,
+          "price": 50,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588537-56c6b664-4590-4cbf-9954-365a8970efb4.png",
+          "product_id": "tshirt_1"
+        },
+        {
+          "label": "White Sports Jumper",
+          "discount_rate": 20,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588539-ef9cf0a5-8ed0-498f-bf74-64d575405505.png",
+          "product_id": "jacket_1"
+        }
+      ]
+    }
+  },
+  "electronics" : {
+    "top_selling": {
+      "title" : {
+        "text" : "New Arrival E"
+      },
+      "categories": [
+        {
+          "category_id": "fashion_jacket",
+          "label": "Jacket",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588528-3a46c0eb-45f7-4461-863f-59ee77b51ad2.png",
+          "updated": true
+        },
+        {
+          "category_id": "fashion_sweater",
+          "label": "Sweater",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588532-97c42520-06d5-49d3-b696-eb4c9b3a1dca.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_cap",
+          "label": "Cap",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588527-22270c73-5792-4d4f-ae31-f18da2334e41.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_belt",
+          "label": "Belt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588525-f2e79b1c-4b3e-4409-93bb-ef0f3c11e2fa.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_shirts",
+          "label": "Shirts",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588530-99282ada-1481-4afd-ab55-cb9e669997ed.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_skirt",
+          "label": "Skirt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588531-1d9b541e-8cc2-418d-8dc4-2e0e191360c3.png",
+          "updated": false
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "Promotions"
+      },
+      "items": [
+        {
+          "label": "Faux Leather Short Tailored Jacket Black",
+          "discount_rate": 10,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588534-daac7734-7210-4980-b70c-bd0d45d91d7c.png",
+          "product_id": "jacket_1"
+        },
+        {
+          "label": "100% Cashmere Sweater",
+          "discount_rate": 15,
+          "price": 150,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588535-9b73635b-a7f3-424d-bdb7-54c9c2b8618b.png",
+          "product_id": "sweater_1"
+        },
+        {
+          "label": "Stripe Knit T-Shirts",
+          "discount_rate": 10,
+          "price": 50,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588537-56c6b664-4590-4cbf-9954-365a8970efb4.png",
+          "product_id": "tshirt_1"
+        },
+        {
+          "label": "White Sports Jumper",
+          "discount_rate": 20,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588539-ef9cf0a5-8ed0-498f-bf74-64d575405505.png",
+          "product_id": "jacket_1"
+        }
+      ]
+    }
+  },
+  "furniture" : {
+    "top_selling": {
+      "title" : {
+        "text" : "New Arrival F"
+      },
+      "categories": [
+        {
+          "category_id": "fashion_jacket",
+          "label": "Jacket",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588528-3a46c0eb-45f7-4461-863f-59ee77b51ad2.png",
+          "updated": true
+        },
+        {
+          "category_id": "fashion_sweater",
+          "label": "Sweater",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588532-97c42520-06d5-49d3-b696-eb4c9b3a1dca.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_cap",
+          "label": "Cap",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588527-22270c73-5792-4d4f-ae31-f18da2334e41.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_belt",
+          "label": "Belt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588525-f2e79b1c-4b3e-4409-93bb-ef0f3c11e2fa.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_shirts",
+          "label": "Shirts",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588530-99282ada-1481-4afd-ab55-cb9e669997ed.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_skirt",
+          "label": "Skirt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588531-1d9b541e-8cc2-418d-8dc4-2e0e191360c3.png",
+          "updated": false
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "Promotions"
+      },
+      "items": [
+        {
+          "label": "Faux Leather Short Tailored Jacket Black",
+          "discount_rate": 10,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588534-daac7734-7210-4980-b70c-bd0d45d91d7c.png",
+          "product_id": "jacket_1"
+        },
+        {
+          "label": "100% Cashmere Sweater",
+          "discount_rate": 15,
+          "price": 150,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588535-9b73635b-a7f3-424d-bdb7-54c9c2b8618b.png",
+          "product_id": "sweater_1"
+        },
+        {
+          "label": "Stripe Knit T-Shirts",
+          "discount_rate": 10,
+          "price": 50,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588537-56c6b664-4590-4cbf-9954-365a8970efb4.png",
+          "product_id": "tshirt_1"
+        },
+        {
+          "label": "White Sports Jumper",
+          "discount_rate": 20,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588539-ef9cf0a5-8ed0-498f-bf74-64d575405505.png",
+          "product_id": "jacket_1"
+        }
+      ]
+    }
+  },
+  "sports" : {
+    "top_selling": {
+      "title" : {
+        "text" : "New Arrival S"
+      },
+      "categories": [
+        {
+          "category_id": "fashion_jacket",
+          "label": "Jacket",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588528-3a46c0eb-45f7-4461-863f-59ee77b51ad2.png",
+          "updated": true
+        },
+        {
+          "category_id": "fashion_sweater",
+          "label": "Sweater",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588532-97c42520-06d5-49d3-b696-eb4c9b3a1dca.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_cap",
+          "label": "Cap",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588527-22270c73-5792-4d4f-ae31-f18da2334e41.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_belt",
+          "label": "Belt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588525-f2e79b1c-4b3e-4409-93bb-ef0f3c11e2fa.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_shirts",
+          "label": "Shirts",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588530-99282ada-1481-4afd-ab55-cb9e669997ed.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_skirt",
+          "label": "Skirt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588531-1d9b541e-8cc2-418d-8dc4-2e0e191360c3.png",
+          "updated": false
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "Promotions"
+      },
+      "items": [
+        {
+          "label": "Faux Leather Short Tailored Jacket Black",
+          "discount_rate": 10,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588534-daac7734-7210-4980-b70c-bd0d45d91d7c.png",
+          "product_id": "jacket_1"
+        },
+        {
+          "label": "100% Cashmere Sweater",
+          "discount_rate": 15,
+          "price": 150,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588535-9b73635b-a7f3-424d-bdb7-54c9c2b8618b.png",
+          "product_id": "sweater_1"
+        },
+        {
+          "label": "Stripe Knit T-Shirts",
+          "discount_rate": 10,
+          "price": 50,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588537-56c6b664-4590-4cbf-9954-365a8970efb4.png",
+          "product_id": "tshirt_1"
+        },
+        {
+          "label": "White Sports Jumper",
+          "discount_rate": 20,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588539-ef9cf0a5-8ed0-498f-bf74-64d575405505.png",
+          "product_id": "jacket_1"
+        }
+      ]
+    }
+  },
+  "books" : {
+    "top_selling": {
+      "title" : {
+        "text" : "New Arrival B"
+      },
+      "categories": [
+        {
+          "category_id": "fashion_jacket",
+          "label": "Jacket",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588528-3a46c0eb-45f7-4461-863f-59ee77b51ad2.png",
+          "updated": true
+        },
+        {
+          "category_id": "fashion_sweater",
+          "label": "Sweater",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588532-97c42520-06d5-49d3-b696-eb4c9b3a1dca.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_cap",
+          "label": "Cap",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588527-22270c73-5792-4d4f-ae31-f18da2334e41.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_belt",
+          "label": "Belt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588525-f2e79b1c-4b3e-4409-93bb-ef0f3c11e2fa.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_shirts",
+          "label": "Shirts",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588530-99282ada-1481-4afd-ab55-cb9e669997ed.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_skirt",
+          "label": "Skirt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588531-1d9b541e-8cc2-418d-8dc4-2e0e191360c3.png",
+          "updated": false
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "Promotions"
+      },
+      "items": [
+        {
+          "label": "Faux Leather Short Tailored Jacket Black",
+          "discount_rate": 10,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588534-daac7734-7210-4980-b70c-bd0d45d91d7c.png",
+          "product_id": "jacket_1"
+        },
+        {
+          "label": "100% Cashmere Sweater",
+          "discount_rate": 15,
+          "price": 150,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588535-9b73635b-a7f3-424d-bdb7-54c9c2b8618b.png",
+          "product_id": "sweater_1"
+        },
+        {
+          "label": "Stripe Knit T-Shirts",
+          "discount_rate": 10,
+          "price": 50,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588537-56c6b664-4590-4cbf-9954-365a8970efb4.png",
+          "product_id": "tshirt_1"
+        },
+        {
+          "label": "White Sports Jumper",
+          "discount_rate": 20,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588539-ef9cf0a5-8ed0-498f-bf74-64d575405505.png",
+          "product_id": "jacket_1"
+        }
+      ]
+    }
+  },
+  "pets" : {
+    "top_selling": {
+      "title" : {
+        "text" : "New Arrival P"
+      },
+      "categories": [
+        {
+          "category_id": "fashion_jacket",
+          "label": "Jacket",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588528-3a46c0eb-45f7-4461-863f-59ee77b51ad2.png",
+          "updated": true
+        },
+        {
+          "category_id": "fashion_sweater",
+          "label": "Sweater",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588532-97c42520-06d5-49d3-b696-eb4c9b3a1dca.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_cap",
+          "label": "Cap",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588527-22270c73-5792-4d4f-ae31-f18da2334e41.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_belt",
+          "label": "Belt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588525-f2e79b1c-4b3e-4409-93bb-ef0f3c11e2fa.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_shirts",
+          "label": "Shirts",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588530-99282ada-1481-4afd-ab55-cb9e669997ed.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_skirt",
+          "label": "Skirt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588531-1d9b541e-8cc2-418d-8dc4-2e0e191360c3.png",
+          "updated": false
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "Promotions"
+      },
+      "items": [
+        {
+          "label": "Faux Leather Short Tailored Jacket Black",
+          "discount_rate": 10,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588534-daac7734-7210-4980-b70c-bd0d45d91d7c.png",
+          "product_id": "jacket_1"
+        },
+        {
+          "label": "100% Cashmere Sweater",
+          "discount_rate": 15,
+          "price": 150,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588535-9b73635b-a7f3-424d-bdb7-54c9c2b8618b.png",
+          "product_id": "sweater_1"
+        },
+        {
+          "label": "Stripe Knit T-Shirts",
+          "discount_rate": 10,
+          "price": 50,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588537-56c6b664-4590-4cbf-9954-365a8970efb4.png",
+          "product_id": "tshirt_1"
+        },
+        {
+          "label": "White Sports Jumper",
+          "discount_rate": 20,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588539-ef9cf0a5-8ed0-498f-bf74-64d575405505.png",
+          "product_id": "jacket_1"
+        }
+      ]
+    }
+  },
+  "car" : {
+    "top_selling": {
+      "title" : {
+        "text" : "New Arrival C"
+      },
+      "categories": [
+        {
+          "category_id": "fashion_jacket",
+          "label": "Jacket",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588528-3a46c0eb-45f7-4461-863f-59ee77b51ad2.png",
+          "updated": true
+        },
+        {
+          "category_id": "fashion_sweater",
+          "label": "Sweater",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588532-97c42520-06d5-49d3-b696-eb4c9b3a1dca.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_cap",
+          "label": "Cap",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588527-22270c73-5792-4d4f-ae31-f18da2334e41.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_belt",
+          "label": "Belt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588525-f2e79b1c-4b3e-4409-93bb-ef0f3c11e2fa.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_shirts",
+          "label": "Shirts",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588530-99282ada-1481-4afd-ab55-cb9e669997ed.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_skirt",
+          "label": "Skirt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588531-1d9b541e-8cc2-418d-8dc4-2e0e191360c3.png",
+          "updated": false
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "Promotions"
+      },
+      "items": [
+        {
+          "label": "Faux Leather Short Tailored Jacket Black",
+          "discount_rate": 10,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588534-daac7734-7210-4980-b70c-bd0d45d91d7c.png",
+          "product_id": "jacket_1"
+        },
+        {
+          "label": "100% Cashmere Sweater",
+          "discount_rate": 15,
+          "price": 150,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588535-9b73635b-a7f3-424d-bdb7-54c9c2b8618b.png",
+          "product_id": "sweater_1"
+        },
+        {
+          "label": "Stripe Knit T-Shirts",
+          "discount_rate": 10,
+          "price": 50,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588537-56c6b664-4590-4cbf-9954-365a8970efb4.png",
+          "product_id": "tshirt_1"
+        },
+        {
+          "label": "White Sports Jumper",
+          "discount_rate": 20,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588539-ef9cf0a5-8ed0-498f-bf74-64d575405505.png",
+          "product_id": "jacket_1"
+        }
+      ]
+    }
+  },
+  "fancy_goods" : {
+    "top_selling": {
+      "title" : {
+        "text" : "New Arrival FG"
+      },
+      "categories": [
+        {
+          "category_id": "fashion_jacket",
+          "label": "Jacket",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588528-3a46c0eb-45f7-4461-863f-59ee77b51ad2.png",
+          "updated": true
+        },
+        {
+          "category_id": "fashion_sweater",
+          "label": "Sweater",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588532-97c42520-06d5-49d3-b696-eb4c9b3a1dca.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_cap",
+          "label": "Cap",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588527-22270c73-5792-4d4f-ae31-f18da2334e41.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_belt",
+          "label": "Belt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588525-f2e79b1c-4b3e-4409-93bb-ef0f3c11e2fa.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_shirts",
+          "label": "Shirts",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588530-99282ada-1481-4afd-ab55-cb9e669997ed.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_skirt",
+          "label": "Skirt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588531-1d9b541e-8cc2-418d-8dc4-2e0e191360c3.png",
+          "updated": false
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "Promotions"
+      },
+      "items": [
+        {
+          "label": "Faux Leather Short Tailored Jacket Black",
+          "discount_rate": 10,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588534-daac7734-7210-4980-b70c-bd0d45d91d7c.png",
+          "product_id": "jacket_1"
+        },
+        {
+          "label": "100% Cashmere Sweater",
+          "discount_rate": 15,
+          "price": 150,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588535-9b73635b-a7f3-424d-bdb7-54c9c2b8618b.png",
+          "product_id": "sweater_1"
+        },
+        {
+          "label": "Stripe Knit T-Shirts",
+          "discount_rate": 10,
+          "price": 50,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588537-56c6b664-4590-4cbf-9954-365a8970efb4.png",
+          "product_id": "tshirt_1"
+        },
+        {
+          "label": "White Sports Jumper",
+          "discount_rate": 20,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588539-ef9cf0a5-8ed0-498f-bf74-64d575405505.png",
+          "product_id": "jacket_1"
+        }
+      ]
+    }
+  },
+  "food" : {
+    "top_selling": {
+      "title" : {
+        "text" : "New Arrival F"
+      },
+      "categories": [
+        {
+          "category_id": "fashion_jacket",
+          "label": "Jacket",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588528-3a46c0eb-45f7-4461-863f-59ee77b51ad2.png",
+          "updated": true
+        },
+        {
+          "category_id": "fashion_sweater",
+          "label": "Sweater",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588532-97c42520-06d5-49d3-b696-eb4c9b3a1dca.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_cap",
+          "label": "Cap",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588527-22270c73-5792-4d4f-ae31-f18da2334e41.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_belt",
+          "label": "Belt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588525-f2e79b1c-4b3e-4409-93bb-ef0f3c11e2fa.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_shirts",
+          "label": "Shirts",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588530-99282ada-1481-4afd-ab55-cb9e669997ed.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_skirt",
+          "label": "Skirt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588531-1d9b541e-8cc2-418d-8dc4-2e0e191360c3.png",
+          "updated": false
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "Promotions"
+      },
+      "items": [
+        {
+          "label": "Faux Leather Short Tailored Jacket Black",
+          "discount_rate": 10,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588534-daac7734-7210-4980-b70c-bd0d45d91d7c.png",
+          "product_id": "jacket_1"
+        },
+        {
+          "label": "100% Cashmere Sweater",
+          "discount_rate": 15,
+          "price": 150,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588535-9b73635b-a7f3-424d-bdb7-54c9c2b8618b.png",
+          "product_id": "sweater_1"
+        },
+        {
+          "label": "Stripe Knit T-Shirts",
+          "discount_rate": 10,
+          "price": 50,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588537-56c6b664-4590-4cbf-9954-365a8970efb4.png",
+          "product_id": "tshirt_1"
+        },
+        {
+          "label": "White Sports Jumper",
+          "discount_rate": 20,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588539-ef9cf0a5-8ed0-498f-bf74-64d575405505.png",
+          "product_id": "jacket_1"
+        }
+      ]
+    }
+  },
+  "beauty" : {
+    "top_selling": {
+      "title" : {
+        "text" : "New Arrival B"
+      },
+      "categories": [
+        {
+          "category_id": "fashion_jacket",
+          "label": "Jacket",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588528-3a46c0eb-45f7-4461-863f-59ee77b51ad2.png",
+          "updated": true
+        },
+        {
+          "category_id": "fashion_sweater",
+          "label": "Sweater",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588532-97c42520-06d5-49d3-b696-eb4c9b3a1dca.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_cap",
+          "label": "Cap",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588527-22270c73-5792-4d4f-ae31-f18da2334e41.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_belt",
+          "label": "Belt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588525-f2e79b1c-4b3e-4409-93bb-ef0f3c11e2fa.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_shirts",
+          "label": "Shirts",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588530-99282ada-1481-4afd-ab55-cb9e669997ed.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_skirt",
+          "label": "Skirt",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/154588531-1d9b541e-8cc2-418d-8dc4-2e0e191360c3.png",
+          "updated": false
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "Promotions"
+      },
+      "items": [
+        {
+          "label": "Faux Leather Short Tailored Jacket Black",
+          "discount_rate": 10,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588534-daac7734-7210-4980-b70c-bd0d45d91d7c.png",
+          "product_id": "desk-1"
+        },
+        {
+          "label": "100% Cashmere Sweater",
+          "discount_rate": 15,
+          "price": 150,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588535-9b73635b-a7f3-424d-bdb7-54c9c2b8618b.png",
+          "product_id": "desk-1"
+        },
+        {
+          "label": "Stripe Knit T-Shirts",
+          "discount_rate": 10,
+          "price": 50,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588537-56c6b664-4590-4cbf-9954-365a8970efb4.png",
+          "product_id": "desk-1"
+        },
+        {
+          "label": "White Sports Jumper",
+          "discount_rate": 20,
+          "price": 190,
+          "representative_image_url": "https://user-images.githubusercontent.com/64354482/154588539-ef9cf0a5-8ed0-498f-bf74-64d575405505.png",
+          "product_id": "desk-1"
+        }
+      ]
+    }
+  },
+  "home": {
+    "title": {
+      "text": "How are\nyou doing?",
+      "icon_url": "https://user-images.githubusercontent.com/64354482/153309735-43be0d65-164c-48a1-b7e1-90c489e2f2df.png"
+    },
+    "top_banners": [
+      {
+        "background_image_url": "https://user-images.githubusercontent.com/64354482/153309759-fabc0518-9a07-4af2-9e22-6b37676ff3ce.png",
+        "badge": {
+          "label": "Promotion",
+          "background_color": "#52514d"
+        },
+        "label": "Prepare\nWarm Winter",
+        "product_detail": {
+          "brand_name": "twg.official",
+          "label": "100% Cashmere Turtleneck Sweater",
+          "discount_rate": 9,
+          "price": 9999,
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309757-b59d8074-6452-44fe-bd14-7af54a506afc.png",
+          "product_id": "FW-twg-sweater-1"
+        }
+      },
+      {
+        "background_image_url": "https://user-images.githubusercontent.com/64354482/153309753-bc7c726f-fa07-4797-92d5-eeaabbfb3cfd.png",
+        "badge": {
+          "label": "Promotion",
+          "background_color": "#967a6d"
+        },
+        "label": "My own\nhome office",
+        "product_detail": {
+          "brand_name": "Desk",
+          "label": "Slim Desk 800",
+          "discount_rate": 16,
+          "price": 3700,
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/64354482/153309754-18bd9b6d-2242-41e8-b12e-4f4f42e04d64.png",
+          "product_id": "desk-1"
+        }
+      }
+    ],
+    "promotions": {
+      "title": {
+        "text": "오늘의 특가"
+      },
+      "items": [
+        {
+          "label": "[19차 리오더] 페이크 레더 숏 테일러 자켓 블랙",
+          "discount_rate": 10,
+          "price": 90000,
+          "representative_image_url": "https://user-images.githubusercontent.com/20774764/153292649-3312f896-5fe1-4f43-8be8-7501b4fe16da.png",
+          "product_id": "desk-1"
+        },
+        {
+          "label": "캐시미어 100% 터틀넥 스웨터",
+          "discount_rate": 15,
+          "price": 70000,
+          "representative_image_url": "https://user-images.githubusercontent.com/20774764/153292663-4fd925b8-4072-41fe-8212-dc6563094c20.png",
+          "product_id": "desk-1"
+        },
+        {
+          "label": "반팔 스트라이프 스웨터",
+          "discount_rate": 20,
+          "price": 30000,
+          "representative_image_url": "https://user-images.githubusercontent.com/20774764/153292667-43eb3b84-f1a2-4a1e-984d-b138aca22575.png",
+          "product_id": "desk-1"
+        },
+        {
+          "label": "화이트 스포츠 점퍼",
+          "discount_rate": 20,
+          "price": 150000,
+          "representative_image_url": "https://user-images.githubusercontent.com/20774764/153292673-bca0dc6c-a1e4-4134-bb9a-4b018d17e9cd.png",
+          "product_id": "desk-1"
+        }
+      ]
+    }
+  }
+
+
 }

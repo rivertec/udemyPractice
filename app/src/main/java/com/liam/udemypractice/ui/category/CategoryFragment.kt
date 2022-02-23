@@ -35,6 +35,7 @@ class CategoryFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val categoryAdapter = CategoryAdapter(viewModel)
+
         binding.rvCategoryList.adapter = categoryAdapter
         viewModel.items.observe(viewLifecycleOwner) {
             categoryAdapter.submitList(it)
