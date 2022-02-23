@@ -4,5 +4,5 @@ import com.liam.udemypractice.model.CategoryDetail
 
 interface CategoryDetailDataSource {
 
-    suspend fun getCategoryDetail(categoryId: String?): CategoryDetail
+    suspend fun getCategoryDetail(): CategoryDetail
 }

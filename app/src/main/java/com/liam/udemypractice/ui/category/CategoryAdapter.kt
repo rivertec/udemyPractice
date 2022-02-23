@@ -9,7 +9,9 @@ import com.liam.udemypractice.model.Category
 import com.liam.udemypractice.ui.common.CategoryDiffCallback
 
 class CategoryAdapter(private val viewModel: CategoryViewModel) :
-    ListAdapter<Category, CategoryAdapter.CategoryViewHolder>(CategoryDiffCallback()) {
+    ListAdapter<Category, CategoryAdapter.CategoryViewHolder>(
+        CategoryDiffCallback()
+    ) {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoryViewHolder {

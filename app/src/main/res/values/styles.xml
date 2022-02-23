@@ -6,34 +6,7 @@
         <item name="cornerSize">50%</item>
     </style>
 
-    <style name="Rounded8">
-        <item name="cornerSize">8dp</item>
-    </style>
-
-    <style name="Rounded12">
-        <item name="cornerSize">12dp</item>
-    </style>
-
-    <style name="Rounded24TB">
-        <item name="cornerSizeTopLeft">24dp</item>
-        <item name="cornerSizeTopRight">24dp</item>
-    </style>
-
     <!-- Text Style -->
-    <style name="TextHeadline32">
-        <item name="android:textColor">@color/shoppi_black_01</item>
-        <item name="android:textSize">32sp</item>
-    </style>
-
-    <style name="TextHeadline32.White">
-        <item name="android:textColor">@color/shoppi_white</item>
-    </style>
-
-    <style name="TextHeadline32.White.Bold">
-        <item name="android:textStyle">bold</item>
-    </style>
-
-
     <style name="TextHeadline5.Black02" parent="TextAppearance.MaterialComponents.Headline5">
         <item name="android:textColor">@color/shoppi_black_02</item>
     </style>
@@ -104,20 +77,12 @@
         <item name="android:textColor">@color/shoppi_black_01</item>
     </style>
 
-    <style name="TextSubtitle3.bold">
-        <item name="android:textStyle">bold</item>
-    </style>
-
     <style name="TextSubtitle3.Grey03">
         <item name="android:textColor">@color/shoppi_grey_03</item>
     </style>
 
     <style name="TextCaption1" parent="TextAppearance.AppCompat.Caption">
         <item name="android:textColor">@color/shoppi_black_01</item>
-    </style>
-
-    <style name="TextCaption1.White">
-        <item name="android:textColor">@color/shoppi_white</item>
     </style>
 
     <style name="TextCaption1.Grey03" parent="TextAppearance.AppCompat.Caption">
@@ -140,10 +105,5 @@
     <style name="TextCaption2.White.Bold">
         <item name="android:textStyle">bold</item>
     </style>
-
-    <style name="TextCaption2.Grey04">
-        <item name="android:textColor">@color/shoppi_grey_04</item>
-    </style>
-
 
 </resources>
