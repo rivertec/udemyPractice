@@ -8,14 +8,18 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.ConcatAdapter
 import com.google.android.material.tabs.TabLayoutMediator
 import com.liam.udemypractice.R
 import com.liam.udemypractice.common.KEY_PRODUCT_ID
 import com.liam.udemypractice.databinding.FragmentHomeBinding
+import com.liam.udemypractice.ui.categorydetaill.SectionTitleAdapter
 import com.liam.udemypractice.ui.common.EventObserver
+import com.liam.udemypractice.ui.common.ProductClickListener
+import com.liam.udemypractice.ui.common.PromotionAdapter
 import com.liam.udemypractice.ui.common.ViewModelFactory
 
-class HomeFragment : Fragment() {
+class HomeFragment : Fragment(), ProductClickListener {
 
     private val viewModel: HomeViewModel by viewModels { ViewModelFactory(requireContext()) }
     private lateinit var binding: FragmentHomeBinding
@@ -36,6 +40,18 @@ class HomeFragment : Fragment() {
         setToolbar()
         setTopBanners()
         setNavigation()
+        setPromotions()
+    }
+
+    private fun setPromotions() {
+
+        val promotionAdapter = PromotionAdapter(this)
+        val sectionTitleAdapter = SectionTitleAdapter()
+        binding.rvHomePromotions.adapter = ConcatAdapter(promotionAdapter, sectionTitleAdapter)
+        viewModel.promotion.observe(viewLifecycleOwner){ promotion ->
+            promotionAdapter.submitList(promotion.items)
+            sectionTitleAdapter.submitList(listOf(promotion.title))
+        }
     }
 
     private fun setNavigation() {
@@ -47,8 +63,8 @@ class HomeFragment : Fragment() {
     }
 
     private fun setToolbar() {
-        viewModel.title.observe(viewLifecycleOwner) { title ->
-            binding.title = title
+        viewModel.homeData.observe(viewLifecycleOwner) { homeData ->
+            binding.home = homeData
         }
     }
 
@@ -78,5 +94,11 @@ class HomeFragment : Fragment() {
 
     private fun openProductDetail(productId: String) {
 
+    }
+
+    override fun onProductClick(productId: String) {
+        findNavController().navigate(R.id.action_home_to_product_detail, bundleOf(
+            KEY_PRODUCT_ID to "desk-1"
+        ))
     }
 }

@@ -3,13 +3,12 @@ package com.liam.udemypractice.ui.common
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.liam.udemypractice.AssetLoader
 import com.liam.udemypractice.ServiceLocator
 import com.liam.udemypractice.repository.category.CategoryRemoteDataSource
 import com.liam.udemypractice.repository.category.CategoryRepository
 import com.liam.udemypractice.repository.categorydetail.CategoryDetailRemoteDataSource
 import com.liam.udemypractice.repository.categorydetail.CategoryDetailRepository
-import com.liam.udemypractice.repository.home.HomeAssetDataSource
+import com.liam.udemypractice.repository.home.HomeRemoteDataSource
 import com.liam.udemypractice.repository.home.HomeRepository
 import com.liam.udemypractice.repository.productsdetail.ProductsDetailRemoteDataSource
 import com.liam.udemypractice.repository.productsdetail.ProductsDetailRepository
@@ -24,7 +23,7 @@ class ViewModelFactory(private val context: Context) :
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         return when {
             modelClass.isAssignableFrom(HomeViewModel::class.java) -> {
-                val repository = HomeRepository(HomeAssetDataSource(AssetLoader(context)))
+                val repository = HomeRepository(HomeRemoteDataSource(ServiceLocator.provideApiClient()))
                 HomeViewModel(repository) as T
             }
             modelClass.isAssignableFrom(CategoryViewModel::class.java) -> {

@@ -4,5 +4,5 @@ import com.liam.udemypractice.model.HomeData
 
 interface HomeDataSource {
 
-    fun getHomeData(): HomeData?
+    suspend fun getHomeData(): HomeData
 }

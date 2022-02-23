@@ -2,6 +2,7 @@ package com.liam.udemypractice.network
 
 import com.liam.udemypractice.model.Category
 import com.liam.udemypractice.model.CategoryDetail
+import com.liam.udemypractice.model.HomeData
 import com.liam.udemypractice.model.Product
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -24,6 +25,9 @@ interface ApiClient {
     suspend fun getProductsDetail(@Path("productId") productId: String): Product
 //    @GET("products/desk-1.json")
 //    suspend fun getProductsDetail(): Product
+
+    @GET("home.json")
+    suspend fun getHomeData(): HomeData
 
     companion object {
 

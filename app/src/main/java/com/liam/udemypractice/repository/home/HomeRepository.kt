@@ -3,10 +3,10 @@ package com.liam.udemypractice.repository.home
 import com.liam.udemypractice.model.HomeData
 
 class HomeRepository(
-    private val assetDataSource: HomeAssetDataSource
+    private val homeRemoteDataSource: HomeRemoteDataSource
 ) {
 
-    fun getHomeData(): HomeData? {
-        return assetDataSource.getHomeData()
+    suspend fun getHomeData(): HomeData {
+        return homeRemoteDataSource.getHomeData()
     }
 }

@@ -19,7 +19,7 @@ class CategoryDetailViewModel(
     private val _promotions = MutableLiveData<Promotion>()
     val promotions: LiveData<Promotion> = _promotions
 
-    fun loadCategoryDetail(categoryId: String?) {
+    fun loadCategoryDetail(categoryId: String) {
         viewModelScope.launch {
             val categoryDetail = categoryDetailRepository.getCategoryDetail(categoryId)
             _topSelling.value = categoryDetail.topSelling

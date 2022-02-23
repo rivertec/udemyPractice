@@ -6,7 +6,7 @@ class CategoryDetailRepository(
     private val remoteDetailDataSource: CategoryDetailRemoteDataSource
 ) {
 
-    suspend fun getCategoryDetail(categoryId: String?): CategoryDetail {
+    suspend fun getCategoryDetail(categoryId: String): CategoryDetail {
         return remoteDetailDataSource.getCategoryDetail(categoryId)
     }
 }
